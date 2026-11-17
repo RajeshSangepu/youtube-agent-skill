@@ -1,15 +1,27 @@
-.venv/
+# Python
 __pycache__/
 *.py[cod]
+.venv/
+
+# Environment and secrets
 .env
 .env.*
 client_secret*.json
 credentials*.json
 token*.json
 *.token
+
+# Local database
 database/*.db
 database/*.sqlite3
+
+# Generated media
 videos/
 thumbnails/
+
+# Logs
 logs/
 *.log
+
+# Operating system
+.DS_Store
