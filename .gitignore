@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+client_secret*.json
+credentials*.json
+token*.json
+*.token
+database/*.db
+database/*.sqlite3
+videos/
+thumbnails/
+logs/
+*.log
